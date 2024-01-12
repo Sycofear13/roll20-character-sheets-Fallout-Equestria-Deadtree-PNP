@@ -39,7 +39,7 @@
                 </select> 
     </div>
 </div>
-
+f
     <input type="hidden" class="sheet-tabstoggle" name="attr_sheetTab"  value="character"  />
     
     <div class="Remaining-Color-CSS">
@@ -48,7 +48,7 @@
         <button class="Darkbox-Button-Tab-Select" type="action" name="act_Magic" >Magic</button>
         <button class="Darkbox-Button-Tab-Select" type="action" name="act_Inventory" >Inventory</button>
         <button class="Darkbox-Button-Tab-Select" type="action" name="act_Perks" >Perks</button>
-        <button class="Darkbox-Button-Tab-Select" type="action" name="act_journal" >Journal</button>
+        <button class="Darkbox-Button-Tab-Select" type="action" name="act_journal" >journal</button>
     </div>
 
 <div class="sheet-Core">
@@ -220,14 +220,14 @@
         </div>
      
         <div class="Skill_Item">
-            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Battle Saddle}} {{Successes=[[floor(((@{Battle Saddle-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Battle Saddle</button> 
-            <input class="Dark-Darkbox" type="number" name="attr_Battle Saddle-Total" value="(@{Trained_Battle Saddle-Bonus}*2)+@{Battle Saddle-Base}+@{Battle Saddle-Ranks}+@{Battle Saddle-Misc}+@{Battle Saddle-Trained}+@{Battle Saddle-Perm-Misc}" disabled="true"/>
-            <input class="Skill-Darkbox" type="number" name="attr_Battle Saddle-Misc" value="0"/>
-            <input class="Skill-Darkbox" type="number" name="attr_Battle Saddle-Perm-Misc" value="0"/>
-            <input type="checkbox" name="attr_Battle Saddle-Trained" value="15"/>
-            <input class="Skill-Darkbox" type="number" name="attr_Trained_Battle Saddle-Bonus" max="15" value="0"/>
-            <input class="Skill-Darkbox" type="number" name="attr_Battle Saddle-Ranks" value="0"/>
-            <input class="Skill-Darkbox" type="number" name="attr_Battle Saddle-Base" value="(ceil((@{Perception_Total})+((@{Endurence_Total})*2)+(@{Strength_Total})+((@{Luck_Total})/2)))" disabled="true"/>
+            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Battle-Saddle}} {{Successes=[[floor(((@{Battle-Saddle-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Battle-Saddle</button> 
+            <input class="Dark-Darkbox" type="number" name="attr_Battle-Saddle-Total" value="(@{Trained_Battle-Saddle-Bonus}*2)+@{Battle-Saddle-Base}+@{Battle-Saddle-Ranks}+@{Battle-Saddle-Misc}+@{Battle-Saddle-Trained}+@{Battle-Saddle-Perm-Misc}" disabled="true"/>
+            <input class="Skill-Darkbox" type="number" name="attr_Battle-Saddle-Misc" value="0"/>
+            <input class="Skill-Darkbox" type="number" name="attr_Battle-Saddle-Perm-Misc" value="0"/>
+            <input type="checkbox" name="attr_Battle-Saddle-Trained" value="15"/>
+            <input class="Skill-Darkbox" type="number" name="attr_Trained_Battle-Saddle-Bonus" max="15" value="0"/>
+            <input class="Skill-Darkbox" type="number" name="attr_Battle-Saddle-Ranks" value="0"/>
+            <input class="Skill-Darkbox" type="number" name="attr_Battle-Saddle-Base" value="(ceil((@{Perception_Total})+((@{Endurence_Total})*2)+(@{Strength_Total})+((@{Luck_Total})/2)))" disabled="true"/>
         </div>
    
         <div class="Skill_Item">
@@ -242,14 +242,14 @@
         </div>  
     
         <div class="Skill_Item">
-            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Bluff & Intimidation}} {{Successes=[[floor(((@{Bluff & Intimidation-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Bluff & Intimidation</button> 
-                <input class="Dark-Darkbox" type="number" name="attr_Bluff & Intimidation-Total" value="(@{Trained_Bluff & Intimidation-Bonus}*2)+@{Bluff & Intimidation-Base}+@{Bluff & Intimidation-Ranks}+@{Bluff & Intimidation-Misc}+@{Bluff & Intimidation-Trained}+@{Bluff & Intimidation-Perm-Misc}" disabled="true"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Bluff & Intimidation-Misc" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Bluff & Intimidation-Perm-Misc" value="0"/>
-                <input type="checkbox" name="attr_Bluff & Intimidation-Trained" value="15"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Trained_Bluff & Intimidation-Bonus" max="15" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Bluff & Intimidation-Ranks" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Bluff & Intimidation-Base" value="(ceil(((@{Charisma_Total})*2)+((@{Luck_Total})/2)))" disabled="true"/>
+            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Bluff-&-Intimidation}} {{Successes=[[floor(((@{Bluff-&-Intimidation-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Bluff-&-Intimidation</button> 
+                <input class="Dark-Darkbox" type="number" name="attr_Bluff-&-Intimidation-Total" value="(@{Trained_Bluff-&-Intimidation-Bonus}*2)+@{Bluff-&-Intimidation-Base}+@{Bluff-&-Intimidation-Ranks}+@{Bluff-&-Intimidation-Misc}+@{Bluff-&-Intimidation-Trained}+@{Bluff-&-Intimidation-Perm-Misc}" disabled="true"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Bluff-&-Intimidation-Misc" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Bluff-&-Intimidation-Perm-Misc" value="0"/>
+                <input type="checkbox" name="attr_Bluff-&-Intimidation-Trained" value="15"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Trained_Bluff-&-Intimidation-Bonus" max="15" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Bluff-&-Intimidation-Ranks" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Bluff-&-Intimidation-Base" value="(ceil(((@{Charisma_Total})*2)+((@{Luck_Total})/2)))" disabled="true"/>
         </div>  
     
         <div class="Skill_Item">
@@ -297,25 +297,25 @@
         </div>         
     
         <div class="Skill_Item">
-            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Slight of Hoof}} {{Successes=[[floor(((@{Slight of Hoof-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Slight of Hoof</button> 
-                <input class="Dark-Darkbox" type="number" name="attr_Slight of Hoof-Total" value="(@{Trained_Slight of Hoof-Bonus}*2)+@{Slight of Hoof-Base}+@{Slight of Hoof-Ranks}+@{Slight of Hoof-Misc}+@{Slight of Hoof-Trained}+@{Slight of Hoof-Perm-Misc}" disabled="true"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Slight of Hoof-Misc" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Slight of Hoof-Perm-Misc" value="0"/>
-                <input type="checkbox" name="attr_Slight of Hoof-Trained" value="15"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Trained_Slight of Hoof-Bonus" max="15" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Slight of Hoof-Ranks" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Slight of Hoof-Base" value="(ceil(@{Charisma_Total}+@{Agility_Total}+((@{Luck_Total})/2)))" disabled="true"/>
+            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Slight-of-Hoof}} {{Successes=[[floor(((@{Slight-of-Hoof-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Slight-of-Hoof</button> 
+                <input class="Dark-Darkbox" type="number" name="attr_Slight-of-Hoof-Total" value="(@{Trained_Slight-of-Hoof-Bonus}*2)+@{Slight-of-Hoof-Base}+@{Slight-of-Hoof-Ranks}+@{Slight-of-Hoof-Misc}+@{Slight-of-Hoof-Trained}+@{Slight-of-Hoof-Perm-Misc}" disabled="true"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Slight-of-Hoof-Misc" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Slight-of-Hoof-Perm-Misc" value="0"/>
+                <input type="checkbox" name="attr_Slight-of-Hoof-Trained" value="15"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Trained_Slight-of-Hoof-Bonus" max="15" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Slight-of-Hoof-Ranks" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Slight-of-Hoof-Base" value="(ceil(@{Charisma_Total}+@{Agility_Total}+((@{Luck_Total})/2)))" disabled="true"/>
         </div>      
     
         <div class="Skill_Item">
-            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Hacking & MT}} {{Successes=[[floor(((@{Hacking & MT-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Hacking & MT</button> 
-                <input class="Dark-Darkbox" type="number" name="attr_Hacking & MT-Total" value="(@{Trained_Hacking & MT-Bonus}*2)+@{Hacking & MT-Base}+@{Hacking & MT-Ranks}+@{Hacking & MT-Misc}+@{Hacking & MT}+@{Hacking & MT-Perm-Misc}" disabled="true"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Hacking & MT-Misc" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Hacking & MT-Perm-Misc" value="0"/>
-                <input type="checkbox" name="attr_Hacking & MT" value="15"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Trained_Hacking & MT-Bonus" max="15" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Hacking & MT-Ranks" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Hacking & MT-Base" value="(ceil(((@{Intelligence_Total})*2)+((@{Luck_Total})/2)))" disabled="true"/>
+            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Hacking-&-MT}} {{Successes=[[floor(((@{Hacking-&-MT-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Hacking-&-MT</button> 
+                <input class="Dark-Darkbox" type="number" name="attr_Hacking-&-MT-Total" value="(@{Trained_Hacking-&-MT-Bonus}*2)+@{Hacking-&-MT-Base}+@{Hacking-&-MT-Ranks}+@{Hacking-&-MT-Misc}+@{Hacking-&-MT}+@{Hacking-&-MT-Perm-Misc}" disabled="true"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Hacking-&-MT-Misc" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Hacking-&-MT-Perm-Misc" value="0"/>
+                <input type="checkbox" name="attr_Hacking-&-MT" value="15"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Trained_Hacking-&-MT-Bonus" max="15" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Hacking-&-MT-Ranks" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Hacking-&-MT-Base" value="(ceil(((@{Intelligence_Total})*2)+((@{Luck_Total})/2)))" disabled="true"/>
         </div>      
     
         <div class="Skill_Item">
@@ -341,14 +341,14 @@
         </div>      
     
         <div class="Skill_Item">
-            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Academics & Lore}} {{Successes=[[floor(((@{Academics & Lore-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Academics & Lore</button> 
-                <input class="Dark-Darkbox" type="number" name="attr_Academics & Lore-Total" value="(@{Trained_Academics & Lore-Bonus}*2)+@{Academics & Lore-Base}+@{Academics & Lore-Ranks}+@{Academics & Lore-Misc}+@{Academics & Lore-Trained}+@{Academics & Lore-Perm-Misc}" disabled="true"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Academics & Lore-Misc" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Academics & Lore-Perm-Misc" value="0"/>
-                <input type="checkbox" name="attr_Academics & Lore-Trained" value="15"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Trained_Academics & Lore-Bonus" max="15" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Academics & Lore-Ranks" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Academics & Lore-Base" value="(ceil(((@{Intelligence_Total})*2)+((@{Luck_Total})/2)))" disabled="true"/>
+            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Academics-&-Lore}} {{Successes=[[floor(((@{Academics-&-Lore-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Academics-&-Lore</button> 
+                <input class="Dark-Darkbox" type="number" name="attr_Academics-&-Lore-Total" value="(@{Trained_Academics-&-Lore-Bonus}*2)+@{Academics-&-Lore-Base}+@{Academics-&-Lore-Ranks}+@{Academics-&-Lore-Misc}+@{Academics-&-Lore-Trained}+@{Academics-&-Lore-Perm-Misc}" disabled="true"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Academics-&-Lore-Misc" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Academics-&-Lore-Perm-Misc" value="0"/>
+                <input type="checkbox" name="attr_Academics-&-Lore-Trained" value="15"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Trained_Academics-&-Lore-Bonus" max="15" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Academics-&-Lore-Ranks" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Academics-&-Lore-Base" value="(ceil(((@{Intelligence_Total})*2)+((@{Luck_Total})/2)))" disabled="true"/>
         </div>  
    
         <div class="Skill_Item">
@@ -374,25 +374,25 @@
         </div>  
    
         <div class="Skill_Item">
-            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Arcane Magic}} {{Successes=[[floor(((@{Arcane Magic-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Arcane Magic</button> 
-                <input class="Dark-Darkbox" type="number" name="attr_Arcane Magic-Total" value="(@{Trained_Arcane Magic-Bonus}*2)+@{Arcane Magic-Base}+@{Arcane Magic-Ranks}+@{Arcane Magic-Misc}+@{Arcane Magic-Trained}+@{Arcane Magic-Perm-Misc}" disabled="true"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Arcane Magic-Misc" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Arcane Magic-Perm-Misc" value="0"/>
-                <input type="checkbox" name="attr_Arcane Magic-Trained" value="15"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Trained_Arcane Magic-Bonus" max="15" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Arcane Magic-Ranks" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Arcane Magic-Base" value="(ceil(@{Intelligence_Total}+@{Perception_Total}+((@{Luck_Total})/2)))" disabled="true"/>
+            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Arcane-Magic}} {{Successes=[[floor(((@{Arcane-Magic-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Arcane-Magic</button> 
+                <input class="Dark-Darkbox" type="number" name="attr_Arcane-Magic-Total" value="(@{Trained_Arcane-Magic-Bonus}*2)+@{Arcane-Magic-Base}+@{Arcane-Magic-Ranks}+@{Arcane-Magic-Misc}+@{Arcane-Magic-Trained}+@{Arcane-Magic-Perm-Misc}" disabled="true"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Arcane-Magic-Misc" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Arcane-Magic-Perm-Misc" value="0"/>
+                <input type="checkbox" name="attr_Arcane-Magic-Trained" value="15"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Trained_Arcane-Magic-Bonus" max="15" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Arcane-Magic-Ranks" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Arcane-Magic-Base" value="(ceil(@{Intelligence_Total}+@{Perception_Total}+((@{Luck_Total})/2)))" disabled="true"/>
         </div>            
     
         <div class="Skill_Item">
-            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Pegasus Magic}} {{Successes=[[floor(((@{Pegasus Magic-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Pegasus Magic</button> 
-                <input class="Dark-Darkbox" type="number" name="attr_Pegasus Magic-Total" value="(@{Trained_Pegasus Magic-Bonus}*2)+@{Pegasus Magic-Base}+@{Pegasus Magic-Ranks}+@{Pegasus Magic-Misc}+@{Pegasus Magic-Trained}+@{Pegasus Magic-Perm-Misc}" disabled="true"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Pegasus Magic-Misc" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Pegasus Magic-Perm-Misc" value="0"/>
-                <input type="checkbox" name="attr_Pegasus Magic-Trained" value="15"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Trained_Pegasus Magic-Bonus" max="15" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Pegasus Magic-Ranks" value="0"/>
-                <input class="Skill-Darkbox" type="number" name="attr_Pegasus Magic-Base" value="(ceil((@{Agility_Total}+@{Endurence_Total}+@{Charisma_Total}+((@{Luck_Total}))))-5)" disabled="true"/>
+            <button class="Darkbox-Button" type="roll" value="&{template:default} {{name=Pegasus-Magic}} {{Successes=[[floor(((@{Pegasus-Magic-Total})+1-1d100cs<[[@{Crit-Success}]]cf>[[@{Crit-Fail}]])/10)]]}}">Pegasus-Magic</button> 
+                <input class="Dark-Darkbox" type="number" name="attr_Pegasus-Magic-Total" value="(@{Trained_Pegasus-Magic-Bonus}*2)+@{Pegasus-Magic-Base}+@{Pegasus-Magic-Ranks}+@{Pegasus-Magic-Misc}+@{Pegasus-Magic-Trained}+@{Pegasus-Magic-Perm-Misc}" disabled="true"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Pegasus-Magic-Misc" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Pegasus-Magic-Perm-Misc" value="0"/>
+                <input type="checkbox" name="attr_Pegasus-Magic-Trained" value="15"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Trained_Pegasus-Magic-Bonus" max="15" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Pegasus-Magic-Ranks" value="0"/>
+                <input class="Skill-Darkbox" type="number" name="attr_Pegasus-Magic-Base" value="(ceil((@{Agility_Total}+@{Endurence_Total}+@{Charisma_Total}+((@{Luck_Total}))))-5)" disabled="true"/>
         </div>    
    
         <div class="Skill_Item">
@@ -435,7 +435,7 @@
         <p>Points Spent</p>
         <input class="Dark-Darkbox" type="number" name="attr_Total_Skill_Points" value="((((@{Intelligence_Stat}+(@{Intelligence_Perm_Misc}))+10)*(@{Level}))+(@{Misc-Skill-Points}))" disabled="true"/>
         <input class="Darkbox" type="number" name="attr_Misc-Skill-Points" value="0">
-        <input class="Dark-Darkbox" type="number" name="attr_Used_Skill_Points" value="@{Profession-Ranks}+@{Trained_Profession-Bonus}+@{Trained_Athletics-Bonus}+@{Athletics-Ranks}+@{Trained_Gambling-Bonus}+@{Gambling-Ranks}+@{Pegasus Magic-Ranks}+@{Trained_Pegasus Magic-Bonus}+@{Arcane Magic-Ranks}+@{Trained_Arcane Magic-Bonus}+@{Shamanism-Ranks}+@{Trained_Shamanism-Bonus}+@{Repair-Ranks}+@{Trained_Repair-Bonus}+@{Academics & Lore-Ranks}+@{Trained_Academics & Lore-Bonus}+@{Medicine-Ranks}+@{Trained_Medicine-Bonus}+@{Chemistry-Ranks}+@{Trained_Chemistry-Bonus}+@{Hacking & MT-Ranks}+@{Trained_Hacking & MT-Bonus}+@{Slight of Hoof-Ranks}+@{Trained_Slight of Hoof-Bonus}+@{Lockpick-Ranks}+@{Trained_Lockpick-Bonus}+@{Sneak-Ranks}+@{Trained_Sneak-Bonus}+@{Negotiation & Seduction-Ranks}+@{Trained_Negotiation & Seduction-Bonus}+@{Bluff & Intimidation-Ranks}+@{Trained_Bluff & Intimidation-Bonus}+@{ASt-Ranks}+@{Trained_ASt-Bonus}+@{Battle Saddle-Ranks}+@{Trained_Battle Saddle-Bonus}+@{Explosives-Ranks}+@{Trained_Explosives-Bonus}+@{Firearms-Ranks}+@{Trained_Firearms-Bonus}+@{Melee-Ranks}+@{Trained_Melee-Bonus}+@{M.E.W-Ranks}+@{Trained_M.E.W-Bonus}+@{Unarmed-Ranks}+@{Trained_Unarmed-Bonus}+@{Trained_Thrown-Bonus}+@{Thrown-Ranks}+@{Barter-Ranks}+@{Trained_Barter-Bonus}" disabled="true"/>
+        <input class="Dark-Darkbox" type="number" name="attr_Used_Skill_Points" value="@{Profession-Ranks}+@{Trained_Profession-Bonus}+@{Trained_Athletics-Bonus}+@{Athletics-Ranks}+@{Trained_Gambling-Bonus}+@{Gambling-Ranks}+@{Pegasus-Magic-Ranks}+@{Trained_Pegasus-Magic-Bonus}+@{Arcane-Magic-Ranks}+@{Trained_Arcane-Magic-Bonus}+@{Shamanism-Ranks}+@{Trained_Shamanism-Bonus}+@{Repair-Ranks}+@{Trained_Repair-Bonus}+@{Academics-&-Lore-Ranks}+@{Trained_Academics-&-Lore-Bonus}+@{Medicine-Ranks}+@{Trained_Medicine-Bonus}+@{Chemistry-Ranks}+@{Trained_Chemistry-Bonus}+@{Hacking-&-MT-Ranks}+@{Trained_Hacking-&-MT-Bonus}+@{Slight-of-Hoof-Ranks}+@{Trained_Slight-of-Hoof-Bonus}+@{Lockpick-Ranks}+@{Trained_Lockpick-Bonus}+@{Sneak-Ranks}+@{Trained_Sneak-Bonus}+@{Negotiation & Seduction-Ranks}+@{Trained_Negotiation & Seduction-Bonus}+@{Bluff-&-Intimidation-Ranks}+@{Trained_Bluff-&-Intimidation-Bonus}+@{ASt-Ranks}+@{Trained_ASt-Bonus}+@{Battle-Saddle-Ranks}+@{Trained_Battle-Saddle-Bonus}+@{Explosives-Ranks}+@{Trained_Explosives-Bonus}+@{Firearms-Ranks}+@{Trained_Firearms-Bonus}+@{Melee-Ranks}+@{Trained_Melee-Bonus}+@{M.E.W-Ranks}+@{Trained_M.E.W-Bonus}+@{Unarmed-Ranks}+@{Trained_Unarmed-Bonus}+@{Trained_Thrown-Bonus}+@{Thrown-Ranks}+@{Barter-Ranks}+@{Trained_Barter-Bonus}" disabled="true"/>
     </div>
 
 
@@ -801,9 +801,9 @@
                                 <option value="(@{M.E.W-Total}+@{Attack_Roll_Condition_Penalty})+@{Attack-Roll-Misc}" name="attr_repeating_M.E.W-Attack-Roll">M.E.W</option>
                                 <option value="(@{Firearms-Total}+@{Attack_Roll_Condition_Penalty})+@{Attack-Roll-Misc}" name="attr_repeating_Firearms-Attack-Roll">Firearms</option>
                                 <option value="(@{Explosives-Total}+@{Attack_Roll_Condition_Penalty})+@{Attack-Roll-Misc}" name="attr_repeating_Explosives-Attack-Roll">Explosives</option>
-                                <option value="(@{Battle Saddle-Total}+@{Attack_Roll_Condition_Penalty})+@{Attack-Roll-Misc}" name="attr_repeating_Battle-Saddles-Attack-Roll">Battle Saddles</option>
-                                <option value="(@{Arcane Magic-Total}+@{Attack_Roll_Condition_Penalty})+@{Attack-Roll-Misc}" name="attr_repeating-Arcane-Magic-Roll">Arcane Magic</option>
-                                <option value="(@{Pegasus Magic-Total}+@{Attack_Roll_Condition_Penalty})+@{Attack-Roll-Misc}" name="attr_repeating-Pegasus-Magic-Roll">Flight Magic</option>
+                                <option value="(@{Battle-Saddle-Total}+@{Attack_Roll_Condition_Penalty})+@{Attack-Roll-Misc}" name="attr_repeating_Battle-Saddles-Attack-Roll">Battle-Saddles</option>
+                                <option value="(@{Arcane-Magic-Total}+@{Attack_Roll_Condition_Penalty})+@{Attack-Roll-Misc}" name="attr_repeating-Arcane-Magic-Roll">Arcane-Magic</option>
+                                <option value="(@{Pegasus-Magic-Total}+@{Attack_Roll_Condition_Penalty})+@{Attack-Roll-Misc}" name="attr_repeating-Pegasus-Magic-Roll">Flight Magic</option>
                         </select>
                         
                         
